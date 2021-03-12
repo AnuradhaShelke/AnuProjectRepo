@@ -21,6 +21,7 @@ public class SpringController {
 	@GetMapping("employeelist")
 	public List<Employee> getAllEmployee(){
 		
+		System.out.println("Student added");
 		List<Employee> list=springservice.getAllEmployee();
 		return list;
 		
